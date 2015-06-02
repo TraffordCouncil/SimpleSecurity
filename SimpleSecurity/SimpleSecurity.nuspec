@@ -1,36 +1,19 @@
-<?xml version="1.0"?>
-<package >
-  <metadata>
-    <id>uk.gov.trafford.simple-security</id>
-    <version>1.0.1</version>
-    <title>SimpleSecurity</title>
-    <authors>Jeremy Page</authors>
-    <owners>Trafford Council</owners>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>
-      Provides a library and reference application for ASP.NET MVC 4 (SimpleMembership) and MVC 5 (ASP.NET Identity) that illustrates:
-    </description>
-    <releaseNotes>Update description and summary</releaseNotes>
-    <summary>
-    Provides a library and reference application for ASP.NET MVC 4 (SimpleMembership) and MVC 5 (ASP.NET Identity) that illustrates:
-
-    - How to customize the user profile to include new properties.
-    
-    - How to enable migrations.
-    
-    - How to seed the database.
-    
-    - How to decouple the identity provider from the main ASP.NET MVC project providing a layered approach that hides the storage mechanism from the models, views and controllers.
-    
-    - How to add email confirmation using a token.
-    
-    - How to add password reset using a token.
-    
-    - How to add basic authentication to Web API's.
-    
-    - How to decouple your security model from your application domain.
-    </summary>
-    <copyright>Copyright 2015</copyright>
-    <tags>Security MVC SimpleMembership Identity</tags>
-  </metadata>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>Trafford.SimpleSecurity</id>
+        <version>1.0.2</version>
+        <title>Simple Security</title>
+        <authors>Jeremy Page</authors>
+        <owners>Trafford Council</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Provides a library for ASP.NET MVC 4 (SimpleMembership) and MVC 5 (ASP.NET Identity)</description>
+        <summary>Provides a library for ASP.NET MVC 4 (SimpleMembership) and MVC 5 (ASP.NET Identity)</summary>
+        <releaseNotes>Update description and summary</releaseNotes>
+        <copyright>Copyright 2015</copyright>
+        <tags>Security MVC SimpleMembership Identity</tags>
+    </metadata>
+    <files>
+        <file src="lib\SimpleSecurity.dll" target="lib\SimpleSecurity.dll" />
+    </files>
 </package>
