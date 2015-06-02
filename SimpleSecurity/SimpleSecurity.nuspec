@@ -2,13 +2,17 @@
 <package >
   <metadata>
     <id>uk.gov.trafford.simple-security</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <title>SimpleSecurity</title>
     <authors>Jeremy Page</authors>
     <owners>Trafford Council</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>
-    This project provides a library and reference application for ASP.NET MVC 4 (SimpleMembership) and MVC 5 (ASP.NET Identity) that illustrates:
+      Provides a library and reference application for ASP.NET MVC 4 (SimpleMembership) and MVC 5 (ASP.NET Identity) that illustrates:
+    </description>
+    <releaseNotes>Update description and summary</releaseNotes>
+    <summary>
+    Provides a library and reference application for ASP.NET MVC 4 (SimpleMembership) and MVC 5 (ASP.NET Identity) that illustrates:
 
     - How to customize the user profile to include new properties.
     
@@ -25,8 +29,7 @@
     - How to add basic authentication to Web API's.
     
     - How to decouple your security model from your application domain.
-    </description>
-    <releaseNotes>Initial release</releaseNotes>
+    </summary>
     <copyright>Copyright 2015</copyright>
     <tags>Security MVC SimpleMembership Identity</tags>
   </metadata>
