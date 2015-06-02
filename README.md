@@ -1,7 +1,7 @@
 SimpleSecurity
 ==============
 
-This project provides a library and reference application for ASP.NET MVC 4 (SimpleMemberhsip) and MVC 5 (ASP.NET Identity) that illustrates:
+This project provides a library and reference application for ASP.NET MVC 4 (SimpleMembership) and MVC 5 (ASP.NET Identity) that illustrates:
 
 - How to customize the user profile to include new properties.
 - How to enable migrations
@@ -12,4 +12,12 @@ This project provides a library and reference application for ASP.NET MVC 4 (Sim
 - How to add basic authentication to Web API's.
 - How to decouple your security model from your application domain.
 
+Release Notes
+-------------
+
+### v1.0.0 ###
+
+Initial release.
+
+---
 Forked from Kevin Junghans's original source at http://simplesecurity.codeplex.com/
