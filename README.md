@@ -12,6 +12,12 @@ This project provides a library and reference application for ASP.NET MVC 4 (Sim
 - How to add basic authentication to Web API's.
 - How to decouple your security model from your application domain.
 
+Unit tests
+----------
+
+Unit tests do correctly clean up after each test, so data connection is not in valid state for next test.
+For now, all tests will have to be run individually.
+
 Release Notes
 -------------
 
