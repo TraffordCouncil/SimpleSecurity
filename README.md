@@ -15,6 +15,11 @@ This project provides a library and reference application for ASP.NET MVC 4 (Sim
 Release Notes
 -------------
 
+### v2.0.1 ###
+
+- Remove OData insecurity
+- Remove MobileExample project
+
 ### v2.0.0 ###
 
 Configure .nuspec and package output(s) correctly this time.
