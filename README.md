@@ -21,6 +21,11 @@ For now, all tests will have to be run individually.
 Release Notes
 -------------
 
+### v3.0.0 ###
+
+- Tidy solutions (promote SimpleSecurityMVC5 to top level project)
+- Fix Bootstrap XSS vulnerability
+
 ### v2.0.1 ###
 
 - Remove OData insecurity
