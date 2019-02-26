@@ -23,6 +23,8 @@
     <SccLocalPath>SAK</SccLocalPath>
     <SccAuxPath>SAK</SccAuxPath>
     <SccProvider>SAK</SccProvider>
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -146,9 +148,6 @@
     <Content Include="Scripts\jquery-2.0.3.js" />
     <Content Include="Scripts\jquery-2.0.3.min.js" />
     <Content Include="Scripts\jquery-2.0.3.min.map" />
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Views\Account\ConfirmationFailure.cshtml" />
@@ -176,6 +175,14 @@
     <Content Include="Views\Home\ReadFoo.cshtml" />
     <Content Include="Views\Home\WriteFoo.cshtml" />
     <Content Include="Views\TestBasicAuth\Index.cshtml" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -221,11 +228,15 @@
     <Folder Include="img\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\SimpleSecurity.Filters.Mvc5\SimpleSecurity.Filters.Mvc5.csproj">
+    <ProjectReference Include="..\SeedSimple\SeedSimple.csproj">
+      <Project>{82e93ac9-0506-40de-aca6-18b9ffab9a48}</Project>
+      <Name>SeedSimple</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SimpleSecurity.Filters\SimpleSecurity.Filters.csproj">
       <Project>{5103928a-3828-42da-8be5-73ba042d2291}</Project>
       <Name>SimpleSecurity.Filters.Mvc5</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\SimpleSecurity\SimpleSecurity.csproj">
+    <ProjectReference Include="..\SimpleSecurity\SimpleSecurity.csproj">
       <Project>{bb4df35b-f6eb-4f53-a00d-9eaff0165e3a}</Project>
       <Name>SimpleSecurity</Name>
     </ProjectReference>
