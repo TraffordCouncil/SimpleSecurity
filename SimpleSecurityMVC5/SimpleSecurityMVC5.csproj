@@ -23,6 +23,8 @@
     <SccLocalPath>SAK</SccLocalPath>
     <SccAuxPath>SAK</SccAuxPath>
     <SccProvider>SAK</SccProvider>
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -221,11 +223,15 @@
     <Folder Include="img\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\SimpleSecurity.Filters.Mvc5\SimpleSecurity.Filters.Mvc5.csproj">
+    <ProjectReference Include="..\SeedSimple\SeedSimple.csproj">
+      <Project>{82e93ac9-0506-40de-aca6-18b9ffab9a48}</Project>
+      <Name>SeedSimple</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SimpleSecurity.Filters\SimpleSecurity.Filters.csproj">
       <Project>{5103928a-3828-42da-8be5-73ba042d2291}</Project>
       <Name>SimpleSecurity.Filters.Mvc5</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\SimpleSecurity\SimpleSecurity.csproj">
+    <ProjectReference Include="..\SimpleSecurity\SimpleSecurity.csproj">
       <Project>{bb4df35b-f6eb-4f53-a00d-9eaff0165e3a}</Project>
       <Name>SimpleSecurity</Name>
     </ProjectReference>

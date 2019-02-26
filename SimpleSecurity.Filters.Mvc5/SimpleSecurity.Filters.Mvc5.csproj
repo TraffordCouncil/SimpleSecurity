@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5103928A-3828-42DA-8BE5-73BA042D2291}</ProjectGuid>
+    <ProjectGuid>{8C0F8D91-BB91-4CC0-8A31-8A143CE3982F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>SimpleSecurity.Filters</RootNamespace>

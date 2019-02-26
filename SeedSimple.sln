@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeedSimple", "SeedSimple\SeedSimple.csproj", "{82E93AC9-0506-40DE-ACA6-18B9FFAB9A48}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleSecurity", "SimpleSecurity\SimpleSecurity.csproj", "{BB4DF35B-F6EB-4F53-A00D-9EAFF0165E3A}"
@@ -13,6 +15,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{F9C5D4
 	ProjectSection(SolutionItems) = preProject
 		.nuget\packages.config = .nuget\packages.config
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeedSimpleUpgradeTo5", "SeedSimpleUpgradeTo5\SeedSimpleUpgradeTo5.csproj", "{C041499B-BF88-48B2-98C7-E99DAFB745F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleSecurity.Filters.Mvc5", "SimpleSecurity.Filters.Mvc5\SimpleSecurity.Filters.Mvc5.csproj", "{8C0F8D91-BB91-4CC0-8A31-8A143CE3982F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleSecurityMVC5", "SimpleSecurityMVC5\SimpleSecurityMVC5.csproj", "{0D093AD6-EDB5-40F8-8C50-47A1E4EA952E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,8 +44,23 @@ Global
 		{5103928A-3828-42DA-8BE5-73BA042D2291}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5103928A-3828-42DA-8BE5-73BA042D2291}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5103928A-3828-42DA-8BE5-73BA042D2291}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C041499B-BF88-48B2-98C7-E99DAFB745F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C041499B-BF88-48B2-98C7-E99DAFB745F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C041499B-BF88-48B2-98C7-E99DAFB745F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C041499B-BF88-48B2-98C7-E99DAFB745F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C0F8D91-BB91-4CC0-8A31-8A143CE3982F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C0F8D91-BB91-4CC0-8A31-8A143CE3982F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C0F8D91-BB91-4CC0-8A31-8A143CE3982F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C0F8D91-BB91-4CC0-8A31-8A143CE3982F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D093AD6-EDB5-40F8-8C50-47A1E4EA952E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D093AD6-EDB5-40F8-8C50-47A1E4EA952E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D093AD6-EDB5-40F8-8C50-47A1E4EA952E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D093AD6-EDB5-40F8-8C50-47A1E4EA952E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F1B4C09D-1203-433D-A53B-52B257F3CA54}
 	EndGlobalSection
 EndGlobal

@@ -7,7 +7,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{82E93AC9-0506-40DE-ACA6-18B9FFAB9A48}</ProjectGuid>
+    <ProjectGuid>{C041499B-BF88-48B2-98C7-E99DAFB745F7}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -24,6 +24,8 @@
     <SccLocalPath>SAK</SccLocalPath>
     <SccAuxPath>SAK</SccAuxPath>
     <SccProvider>SAK</SccProvider>
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -319,11 +321,11 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\SimpleSecurity.Filters.Mvc5\SimpleSecurity.Filters.Mvc5.csproj">
+    <ProjectReference Include="..\SimpleSecurity.Filters\SimpleSecurity.Filters.csproj">
       <Project>{5103928a-3828-42da-8be5-73ba042d2291}</Project>
       <Name>SimpleSecurity.Filters.Mvc5</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\SimpleSecurity\SimpleSecurity.csproj">
+    <ProjectReference Include="..\SimpleSecurity\SimpleSecurity.csproj">
       <Project>{bb4df35b-f6eb-4f53-a00d-9eaff0165e3a}</Project>
       <Name>SimpleSecurity</Name>
     </ProjectReference>
